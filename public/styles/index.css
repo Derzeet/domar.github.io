@@ -30,9 +30,13 @@ body {
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-    margin-top: 35px ;
+    margin-top: 23px ;
     color: #747474;
     cursor: pointer;
+    text-decoration: none;
+}
+.today:hover {
+    color: #5e5e5e;
 }
 .date {
     text-decoration: none;
