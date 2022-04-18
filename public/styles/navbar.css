@@ -35,15 +35,15 @@ body {
     cursor: pointer;
 }
 .date {
-    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 53px;
-    color: #FFFFFF;
     margin-left: -90px;
     margin-top: 23px ;
+    opacity: 0;
+    cursor: default;
 }
 div i {
     color: #FFFFFF;
@@ -52,10 +52,4 @@ div i {
 div i:hover {
     color: #5e5e5e;
     transition: all ease 0.2s;
-}
-
-.review {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
 }

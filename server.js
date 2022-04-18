@@ -13,8 +13,8 @@ app.set("view engine", "ejs");
 
 app.use("/", require("./routes/web/root"));
 app.use("/login", require("./routes/web/login"));
+app.use("/register", require("./routes/web/register"));
 app.use("/profile", require("./routes/web/profile"));
-app.use("/api", require("./routes/api"));
 
 app.listen(app.get("port"),function(){
     console.log("App started on port http://localhost:" + app.get("port"));
