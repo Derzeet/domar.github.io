@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hale-mercury-322816",
+  "private_key_id": "190feffd24eb674898390d85e26fad56164fe578",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDoWcRF4AO8qIQS\n5BnllmwTz8raVCXYuiDZkHlwVCBcG5PA16GRuIl9aGmQCnVBF/ifWmssgqDbQlw/\n/IMz6doiqtVuzBoUm4CPbOpiLWcHSY6FmcKq1oOIS7Ekh64vdXxmFNSavU9ycFuL\nBUx3xyBpS169fxq9mXuXAtlj4Wd7FV4eh/rHlfUnhgRNV5d+kWmNVoGVl+9aNLyo\ndJZs8q6Kxbj8XbnbzeLduUO914j4RaYRvLU/uUQCO86LWwrRD7tfbtiZgCDUiVAC\noLlV9U0WP5kRTNTQje4Qku9qkEZOuS4n+n9Yo/+GD/SUKhXhugQRaiOey/faE5ko\nvyOLd8z9AgMBAAECggEAHxyyBuc9qNvpv3vSqebv9uEqmPyOisw1jNxnHm7tXFgG\n+1oEVPZgVq4OAI8d70bt8CyT0ER3lJR4tMqzqNZl8qFsbecfkOXXm5zqb5YDxzqG\nvoX9xpFt0GjOQgV3AfzZ2PNuGoBB7KF16JIfkKRVxzOj7nzgEEZGgcyMXm72w8ix\n3VwaUwJdK2UIIxvrudsLNTq2R+RRxJvMzBwbMzPq67XB+rlldniOM7shxcdrqSMu\nbg8r8BlyUatiYUpUxyaNH4CfDkS1xJhet5McucWE2opUzJTXXdXv5Hdcr4j/iUkB\noQ+B2S9VkpfDTqw+dmiWJ0x9r7y7hGqUCgWqGyFZgwKBgQD2t6XdOPx2JqP6VowH\nV67sbknFyWjOm0gveTXe02FzcAO9clM7lx6GdXx9JQtqDuESNnJvjkUK+VEXMSQY\nptZ85K7zu8gm1dyF6UAvslgS8X0UPe86Ogj+dVUavxRyTZeA3xNUBc4BiARtA7rz\nlCTUsJvWdb1FcG795OkObpwsDwKBgQDxF71/wwB3764ckl5Re2rsyMLL6YOEqZUn\nkOqEc74BqS95gUdElZQq4Q8BLVYQGurL6xzwV5tydO9wzyFfBXFKUmIAd1TRxasp\nShW/A05iw5i/wYIZhnr3jwLPpAKhZahPCtIcD5p5N7GnNAeoEUDceWxE1vRvQQwU\n0oLdgIaaMwKBgDttXQx+b4FeKV1hf3U9T6svnaGAtDgf+zFENw+nRu/xaVU2tonC\nCt5EamoShD9Vui0S5FmuoT7VcwztD07I0R1gUCvxbXK9TNMMriNPCBv4AzLfAEK8\nO/Je/NLmd9xYiEfIc/VnOInx428G2P9XDdAVglQUJDUXsgSCIQkS55dNAoGAEZWV\nsLfcVOMaY+MZFgBWcCbEbnL9sLNduaEMOdTnSt+4IriXJh1yzR3VJlTULiCId48S\ncUUyhUqaHDQ/TtrqxGz10OrjONmd/kj1BRWMpg92GKZYgtwYI+4+Wj6wIm1ztTAo\n2vsYXTb+sh9NX6jCflIs32h+M48e/nXMLbOuHZkCgYBHduXEwDfGh1sQqxifeUTo\nRg4OyE3IEo9E5C/mEBy4ISAAol63ia7wg4wTPdf+aWch9/GZW3APu0frRy8n/Lc0\nAhlthqWbV2V6rBdj53EfSTwweNFaN2y2Qc94etu7cePPGT+NLBKt9eG/r3SXJjp7\nOLkUuTzJ9y20f1RWX5+JGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-calendar-api@hale-mercury-322816.iam.gserviceaccount.com",
+  "client_id": "116393814996293988588",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-calendar-api%40hale-mercury-322816.iam.gserviceaccount.com"
+}
