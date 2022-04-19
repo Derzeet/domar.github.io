@@ -1,3 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 h1 {
     color: #FFFFFF;
+}
+.selectors {
+    margin-left: -92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+#previous-month-selector, #next-month-selector {
+    color: #858585;
+    cursor: pointer;
+    font-size: 25px;
+}
+#previous-month-selector:hover, #next-month-selector:hover {
+    color: #d0d0d0;
+    transition: all ease 0.3s;
+}
+#next-month-selector {
+    margin-left: -85px;
+}
+
+.date {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    cursor: default;
+}
+
+body {
+    --grey-100: #e4e9f0;
+    --grey-200: #cfd7e3;
+    --grey-300: #b5c0cd;
+    --grey-800: #3e4e63;
+    --grid-gap: 1px;
+    --day-label-size: 20px;
+}
+.calendar-day--not-current {
+    background-color: var(--grey-100);
+    color: var(--grey-300);
+}
+
+.calendar-month {
+    position: relative;
+    /* Color of the day cell borders */
+    background-color: var(--grey-200);
+    border: solid 1px var(--grey-200);
+}
+
+    /* Month indicator and selectors positioning */
+.calendar-month-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+}
+
+    /* Month indicator */
+.calendar-month-header-selected-month {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+    /* Month selectors positioning */
+.calendar-month-header-selectors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.calendar-month-header-selectors > * {
+    cursor: pointer;
+}
+
+    /* | Mon | Tue | Wed | Thu | Fri | Sat | Sun | */
+.day-of-week {
+    color: var(--grey-800);
+    font-size: 18px;
+    background-color: #fff;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.day-of-week,
+.days-grid {
+    /* 7 equal columns for weekdays and days cells */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day-of-week > * {
+    /* Position the weekday label within the cell */
+    text-align: right;
+    padding-right: 5px;
+}
+
+.days-grid {
+    height: 100%;
+    position: relative;
+    /* Show border between the days */
+    grid-column-gap: var(--grid-gap);
+    grid-row-gap: var(--grid-gap);
+    border-top: solid 1px var(--grey-200);
+}
+
+.calendar-day {
+    position: relative;
+    min-height: 100px;
+    font-size: 16px;
+    background-color: #fff;
+    color: var(--grey-800);
+    padding: 5px;
+}
+
+    /* Position the day label within the day cell */
+.calendar-day > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2px;
+    width: var(--day-label-size);
+    height: var(--day-label-size);
+}
+ol, ul {
+    padding-left: 12rem;
+    padding-right: 12rem;
 }

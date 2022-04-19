@@ -1,8 +1,6 @@
 const express = require("express");
 var path = require("path");
 var bodyparser = require("body-parser");
-
-
 // var mongoose = require("mongoose");
 // var cookieParser = require("cookie-parser");
 // var passport = require("passport");
@@ -30,7 +28,7 @@ app.use(bodyparser.urlencoded({extended: false}));
 // app.use(flash());
 
 
-app.set("port", process.env.PORT || 3002);
+app.set("port", process.env.PORT || 3003);
 
 app.use(express.static(__dirname + "/public"));
 

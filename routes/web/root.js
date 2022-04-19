@@ -6,4 +6,5 @@ router
     .get((req, res) => res.render(path.resolve("public/html/index.ejs")))
     .post((req, res) => res.send("POST"))
 
+
 module.exports =router;
