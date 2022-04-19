@@ -20,7 +20,7 @@
 
 <div class="formes">
 
-    <form action=" " class="regbox">
+    <form action="/register" class="regbox" method="post">
         <h1 class="tittle">Registration</h1>
 
         <div class="row ">
@@ -28,7 +28,7 @@
                 <p class="labels">Name</p>
             </div>
             <div class="col-8 ">
-                <input type="text " >
+                <input type="text " name="name" >
             </div>
         </div>
         <div class="row ">
@@ -36,7 +36,7 @@
                 <p class="labels">Surname</p>
             </div>
             <div class="col-8 ">
-                <input type="text " >
+                <input type="text " name="surname" >
             </div>
         </div>
         <div class="row ">
@@ -44,7 +44,7 @@
                 <p class="labels">Email</p>
             </div>
             <div class="col-8 ">
-                <input type="text " >
+                <input type="text " name="email" >
             </div>
         </div>
         <div class="row ">
@@ -52,7 +52,7 @@
                 <p class="labels">Password</p>
             </div>
             <div class="col-8 ">
-                <input type="text " >
+                <input type="password " name="password" >
             </div>
         </div>
         <div class="row ">
@@ -60,7 +60,7 @@
                 <p class="labels">Repeat</p>
             </div>
             <div class="col-8 ">
-                <input type="text " >
+                <input type="password " name="repassword" >
             </div>
         </div>
 
@@ -69,7 +69,7 @@
             </div>
             <div class="col-8 " id="buttonholder">
                 <button class="signup"> <a href="/login" class="sign">Log In</a></button>
-                <button class="confirmbutton"> <a href="/step2" class="logn">Sign Up</a></button>
+                <button type="submit" class="confirmbutton"> <a href="/step2" class="logn">Sign Up</a></button>
             </div>
         </div>
 
