@@ -1,12 +1,26 @@
 const express = require("express");
+const bp = require('body-parser');
 const router = express.Router();
 var path = require('path')
 const {google} = require("googleapis");
+const https = require("https");
+const apikey = "503A0495-5E16-4D84-828E-A26F20C79E2A";
+app.use(bp.urlencoded({extended:true}));
 router
     .route("/")
     .get((req, res) => res.render(path.resolve("public/html/index.ejs")))
      router.post("/", ((req, res) => {
-            let summarysstring = req.body.sumarrys
+             let summarysstring = req.body.sumarrys;
+             // let coin = req.body.sumaryys;
+             // let fiat = req.body.currency;
+             // let url = "https://rest.coinapi.io/v1/exchangerate/" + coin + "/" + fiat + "?apikey=" + apikey;
+             // https.get(url , function (response) {
+             //     response.on('data', data => {
+             //         let gri = JSON.parse(data)
+             //         let rate = gri.rate
+             //         res.send("The rate of " + coin + " in " + fiat + " is equal to " + rate)
+             //     })
+             // })
              const {google} = require('googleapis');
              require('dotenv').config();
 
